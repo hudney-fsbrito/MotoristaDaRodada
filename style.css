@@ -1,17 +1,23 @@
+body{
+    background-color: rgb(161, 156, 156);
+}
 .container,
 .cadastro {
+    background-color: rgba(22, 10, 10, 0.432);
     border: 1px solid rgb(0, 255, 255);
-    
+    text-align: center;
+    color: aliceblue;
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 5%;
     padding: 30px;
-
+    
 }
 
 h1 {
     font-size: 3rem;
     text-align: center;
+    color: aliceblue;
 
 }
 
@@ -59,10 +65,17 @@ input {
 }
 
 input:hover {
-    background-color: black;
-    color: aqua;
+    border: 2px solid black;
+    
+    /* background-color: black;
+    color: aqua; */
 }
 
 input::placeholder {
     font-size: 1.3rem;
+}
+
+.btn:active {   
+    background-color: black;
+    color: aqua;
 }
